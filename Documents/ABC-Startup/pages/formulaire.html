@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ABC Startup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../layout/styles/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
+    <div class="header">
+
+      <div class="header__text-group text-center">
+        <h1 class="header__heading">Comolètez votre commande</h1>
+        
+      </div> <!-- close .text-group -->
+    </div> <!-- close .header -->
+    
+    <hr />
+    <p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> Quantité: 20 Kilos.</p>
+<p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> Prix: 20 000 F CFA.</p>
+  <p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> Délai de livraison: 2 jours.</p>
+    <p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> En bonus: 5 guides pratiques sur les recettes de porcs.</p>
+    
+    <br />
+    
+    <div class="form-register">
+      <form name="register">
+        <input name="utf8" type="hidden" value="✓">
+		<div class="form-group">
+          <label for="user_email">
+            Nom(s)
+          </label>
+          <input class="form-control" type="text" value="" name="nom" id="nom">
+        </div> <!-- close .form-group -->
+		  <div class="form-group">
+          <label for="user_email">
+            Préonm(s) <small>(Optionel)</small>
+          </label>
+          <input class="form-control" type="text" value="" name="nom" id="nom">
+        </div> <!-- close .form-group -->
+        <div class="form-group">
+          <label for="user_email">
+            Adresse mail
+          </label>
+          <input class="form-control" type="email" value="" name="user[email]" id="user_email" data-cip-id="cIPJQ342845639">
+
+        </div> <!-- close .form-group -->
+
+        <div class="form-group">
+          <label for="user_username">
+            Numéro de téléphone</label>
+          <input class="form-control" required="required" type="text" name="user[username]" id="user_username" data-cip-id="user_username" autocomplete="off">
+        </div> <!-- close .form-group -->
+
+        <div class="form-group">
+          <input type="submit" value="Payer maintenant" class="btn" style="background-color: #82A800; color: white;">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Payer à la livraison" class="btn btn-primary">
+        </div><!-- close .form-group -->
+
+  
+      </form>
+    </div> <!-- close .form -->
+
+  </div>
+</div>
+</body>
+
+</html>

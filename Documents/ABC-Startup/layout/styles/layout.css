@@ -895,10 +895,18 @@ border: 1px solid #82A800;
 
 .bodyWrap{
 	position: relative;
-margin-left: 13%;
+margin-left: 3%;
 	
 }
 
 main.hoc{
 margin-left: 18em;
+}
+
+.form-group{
+  margin-top: 2em;
+}
+
+.button a{
+  color: #fff;
 }

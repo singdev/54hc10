@@ -74,32 +74,66 @@ style="background-image:url('https://s.rfi.fr/media/display/b76549b2-135b-11ea-a
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="bodyWrap">    
-      <div class="productStage">
-          <div class="folderTab clearFix">
-      <div class="breadCrumbs">
-      </div></div>
-    <div class="botBorder clearFix">
-        <div class="productImage">
-          <img src="https://i.imgur.com/iiZ8F4b.jpg">
-        </div>
-        <div class="overview">
-          <h1>ABC Startup</h1>
-          <h2>Piments rouge</h2>
-          <span class="rating">
-            <img src="http://www.jimmybeanswool.com/secure-html/onlineec/images/stars/4_5StarBlue09.gif">
-          </span>
-          <h3>Quantité : 20kg</h4>
-          <h3>Prix : 2000 Fcfa</h4>
-          <span>Délais de livraison : 2 jours</span>
-          <div class="button add"><a href="produit4.html">Commander</a></div>
-          <div class="button wish">Contact du vendeur</div>
-          <div class="button wish">Tel: 074 00 00 00</div>
-                     
-        </div>
-          
-          
+    <div class="container">
+      <div class="col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
+        <div class="header">
+    
+          <div class="header__text-group text-center">
+            <h1 class="header__heading">Complètez votre commande</h1>
+            
+          </div> <!-- close .text-group -->
+        </div> <!-- close .header -->
         
+        <hr />
+        <p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> Quantité: 20 Kilos.</p>
+    <p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> Prix: 20 000 F CFA.</p>
+      <p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> Délai de livraison: 2 jours.</p>
+        <p class="header__subheading"> <i class="fa fa-circle" style="color: #82A800;"></i> En bonus: 5 guides pratiques sur les recettes de porcs.</p>
+        
+        <br />
+        
+        <div class="form-register">
+          <form name="register">
+            <input name="utf8" type="hidden" value="✓">
+        <div class="form-group">
+              <label for="user_email">
+                Nom(s)
+              </label>
+              <input class="form-control" type="text" value="" name="nom" id="nom">
+            </div> <!-- close .form-group -->
+          <div class="form-group">
+              <label for="user_email">
+                Préonm(s) <small>(Optionel)</small>
+              </label>
+              <input class="form-control" type="text" value="" name="nom" id="nom">
+            </div> <!-- close .form-group -->
+            <div class="form-group">
+              <label for="user_email">
+                Adresse mail
+              </label>
+              <input class="form-control" type="email" value="" name="user[email]" id="user_email" data-cip-id="cIPJQ342845639">
+    
+            </div> <!-- close .form-group -->
+    
+            <div class="form-group">
+              <label for="user_username">
+                Numéro de téléphone</label>
+              <input class="form-control" required="required" type="text" name="user[username]" id="user_username" data-cip-id="user_username" autocomplete="off">
+            </div> <!-- close .form-group -->
+    
+            <div class="form-group">
+              <input type="submit" value="Payer maintenant" class="btn" style="background-color: #82A800; color: white;">
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Payer à la livraison" class="btn btn-primary">
+            </div><!-- close .form-group -->
+    
+      
+          </form>
+        </div> <!-- close .form -->
+    
+      </div>
+    </div>
   </main>
 </div>
 <!-- ################################################################################################ -->
@@ -200,7 +234,6 @@ style="background-image:url('https://s.rfi.fr/media/display/b76549b2-135b-11ea-a
 <script src="../layout/scripts/jquery.min.js"></script>
 <script src="../layout/scripts/jquery.backtotop.js"></script>
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
-<script src="../layout/scripts/price.js"></script>
 <!-- IE9 Placeholder Support -->
 <script src="../layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
